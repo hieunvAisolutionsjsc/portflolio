@@ -1,0 +1,198 @@
+body{
+    background: url(photos/background.png);
+    background-position: 0% -6%;
+    background-attachment: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0;
+}
+.home{
+    font-family: 'Playfair-Display';
+    margin: 70px 70px 70px;
+    display: flex;
+}
+
+.photo img{
+    position: relative;
+    text-align: center;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0px black;
+}
+
+.about{
+    size: 50px;
+    display: flex;
+    box-shadow: 0 0 20px 0px #808080;
+    background: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about .text{
+    padding-left: 20px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+}
+.text .about-me{
+    font-size: 40px;
+    font-weight: 100;
+}
+.description{
+    font-size: 20px;
+    color: #808080;
+    font-family: 'Roboto';
+
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 0px 85%;
+    padding-top: 50px;
+    margin-bottom: -30px;
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.icons a:hover{
+    font-size: 40px;
+
+}
+
+.icons i{
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: -200px;
+}
+
+.work{
+    max-width: 100%;
+    background-color: white;
+    margin-top: 5%;
+    margin: -20px 70px 70px;
+}
+.my-work{
+    font-weight: 200;
+    font-size: 50px;
+    padding-left: 20px;
+}
+.container{
+    margin-top: -80px;
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: space-between;
+}
+.row{
+    padding: 50px 30px;
+    box-sizing: border-box;
+}
+.row .text2{
+    box-shadow: 0 0 20px 0px #808080;
+    
+}
+.git{
+    display: flex;
+    float: right;
+}
+.git a{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -40px;
+    color: black;
+    transition: 0.5s;
+}
+.git a:hover{
+    color: red;
+}
+.row .text2 h1{
+    font-size: 40px;
+    font-weight: 60;
+    color: white;
+    background-color: crimson;
+    padding: 90px 90px 90px 90px;
+}
+.text2 h3{
+    font-weight: 200;
+    font-size: 23px;
+    padding-right: 150px;
+}
+.text2 p{
+    padding-top: 17px;
+    padding-bottom: 90px;
+}
+.text2 h3, p{
+    padding-left: 20px;
+    margin-top: -20px;
+}
+.text2 a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    background-color: #0891b2;
+    margin: 0;
+}
+.contact{
+    padding: 70px 70px 70px;
+    display: flex;
+    color: white;
+    font-family: 'Roboto';
+}
+.contact-me h1{
+    font-size: 80px;
+    font-weight: 300;
+    font-family: 'Playfair-Display';
+    margin-top: -4%;
+}
+.contact-me p{
+    font-size: 30px;
+    width: 600px;
+}
+.photo2{
+    margin-left: 0%;
+}
+.photo2 img{
+    width: 700px;
+}
+.phone{
+    display: flex;
+    margin-top: 50px;
+}
+.phone p{
+    padding-top: 50px;
+}
+.phone img{
+    width: 70px;
+    height: 70px;
+}
+.email{
+    display: flex;
+    margin-top: 50px;
+}
+.email p{
+    margin-top: 20px;
+}
+.email img{
+    width: 70px;
+    height: 70px;
+}
+.social{
+    font-size: 50px;
+    padding-top: 10%;
+}
+.social a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+.social a:hover{
+    color: white;
+}
+
+
+
+
